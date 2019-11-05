@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Bank</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id=userNumbers>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="name" class="form-control" id="name" placeholder="Enter Name">
+  </div>
+  <div class="form-group">
+    <label for="initialDeposit">Initial Deposit</label>
+    <input type="deposit" class="form-control" id="initialDeposit" placeholder="Initial Deposit">
+  </div>
+  <div class="form-group">
+    <label for="deposit">Deposit</label>
+    <input type="deposit" class="form-control" id="deposit" placeholder="Enter Deposit">
+  </div>
+  <div class="form-group">
+    <label for="withdraw">Withdraw</label>
+    <input type="withdraw" class="form-control" id="withdraw" placeholder="Enter Withdraw">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    <div id="statement">
+      <p id="accountName"></p>
+      <p id="balance"></p>
+    </div>
+   </div>
+  </body>
+</html>
